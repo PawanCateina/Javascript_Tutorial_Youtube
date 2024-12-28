@@ -11,6 +11,16 @@ let myCreatedDate = new Date("01-01-2024")
 // console.log(`to String ${date.toString()}`);
 // console.log(typeof date);
 
-console.log(myCreatedDate.toLocaleString());
+//console.log(myCreatedDate.toLocaleString());
+
+console.log(Math.floor(Date.now()/1000));
+
+console.log(date.getDay());
+console.log(date.getMonth()+1);
 
 
+const myNewCreatedDate = date.toLocaleString('default',{
+    weekday: "long",
+
+})
+console.log(myNewCreatedDate);
