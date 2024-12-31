@@ -38,10 +38,32 @@ const Users = [
     }
 ]
 
-console.log(Users[0]);
-console.log(Users[1].id);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('name'));
-console.log(tinderUser.hasOwnProperty('id1'));
+// console.log(Users[0]);
+// console.log(Users[1].id);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('id1'));
+
+
+// Objects De-Strcuture and JSON API intro
+
+// const course={
+//     coursename: "Javascript Hindi",
+//     price: 999,
+//     courseInstructor: "Hitesh"
+// }
+
+// const {coursename,price} = course //Object De-Structure
+// console.log(price);
+
+//JSON
+// {
+//     "name":"Hitesh",
+  
+//     "coursename":"JS in Hindi"
+//     "price":999,
+// }
+
+
