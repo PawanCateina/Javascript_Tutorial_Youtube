@@ -4,7 +4,7 @@ let fruits = new Array('Apple','Mango','Pineapple','Watermelon','Chickoo')
 
 //Change the value in the specified index 
 fruits[0]="Cherries"
-// console.log(fruits.length);
+console.log(fruits[1]);
 
 // fruits.push('banana')
 // console.log(fruits);
