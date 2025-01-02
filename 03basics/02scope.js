@@ -25,10 +25,48 @@ if(true){
         let a=10
         const b=11
         var c=12
-        console.log(a);
-        
+        // console.log(a);
 }
 
-    console.log(a);
-    // console.log(b);
-    console.log(c);
+
+
+//     console.log(a);
+//     // console.log(b);
+//     console.log(c);
+
+
+//Nested Scopes
+//Nested Scopes are also same for if conditional statements
+
+function one() {
+        const username="John"
+        function two() {
+                const platform="Youtube"
+                console.log(username);
+        }
+        //console.log(platform);
+        two()
+}
+
+// one()
+
+// ++++++++++++++++++++++++++++++++ Interesting +++++++++++++++++++++++++++++++++++++++++
+
+console.log(addOne(4));
+// addOne(2)
+function addOne(num) {
+        return num + 1
+}
+
+
+//console.log(addTwo(7)); // Error: Cannot access 'addTwo' before initialization
+
+const addTwo= function Two(num1) {
+        return num1+1
+}
+
+console.log(addTwo(3));
+
+
+
+
