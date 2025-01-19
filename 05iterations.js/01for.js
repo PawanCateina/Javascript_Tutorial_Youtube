@@ -36,10 +36,10 @@
 // }
 // console.log("Out of Loop");
 
-for (let i = 1; i < 10; i++) {
+// for (let i = 1; i < 10; i++) {
     
-    if (i == 5) {
-        continue;
-    }   
-    console.log(`Number is: ${i}`);
-}
+//     if (i == 5) {
+//         continue;
+//     }   
+//     console.log(`Number is: ${i}`);
+// }
